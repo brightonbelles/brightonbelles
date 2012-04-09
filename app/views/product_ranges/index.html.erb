@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="span8">
+
+    <ul class="breadcrumb">
+      <li>
+        <a href="/">Home</a> <span class="divider">/</span>
+      </li>
+      <li>
+        <a href="#">Products</a> <span class="divider">/</span>
+      </li>
+      <li class="active"><%= @range.name %></li>
+    </ul>
+    
+    <ul class="thumbnails">
+      <% @products.each_with_index do |product, i|  %>
+        <li class="span2">
+          <% link_to(product, { 'data-target' => "#product1#{i}" }) do %>
+            <%= image_tag '160x200.png' %>
+          <% end %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+
+  <div class="span4">
+    <div class="tab-content">
+      <% @products.each_with_index do |product, i|  %>
+        <div class="tab-pane active" id="product<%= i %>">
+          <h3><%= product.name %></h3>
+          <p>Stuff about this product</p>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+</div>

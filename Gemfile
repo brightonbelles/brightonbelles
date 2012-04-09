@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.1'
 
 gem 'active_hash'
+gem 'stringex'
 
 group :assets do
   gem 'twitter-bootstrap-rails', '~> 2.0'

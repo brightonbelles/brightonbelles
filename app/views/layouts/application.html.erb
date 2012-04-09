@@ -27,27 +27,29 @@
                 <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="/products">Cushions</a></li>
-                <li><a href="#">Bags</a></li>
-                <li><a href="#">Purses</a></li>
+                <% for range in @ranges %>
+                  <li><%= link_to range.name, range %></li>
+                <% end %>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#"
                  class="dropdown-toggle"
                  data-toggle="dropdown">
-                Styles
+                Collections
                 <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="/products">Eiffel</a></li>
-                <li><a href="#">Butterfly</a></li>
-                <li><a href="#">Tweed</a></li>
+                <% for collection in @collections %>
+                  <li><%= link_to collection.name, collection %></li>
+                <% end %>
               </ul>
             </li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#">Etsy</a></li>
+            <li><a href="#">One Offs</a></li>
+            <li><a href="#">Commissions</a></li>
+            <li><a href="#"><b>Etsy</b></a></li>
           </ul>
 
           <div class="nav-collapse">

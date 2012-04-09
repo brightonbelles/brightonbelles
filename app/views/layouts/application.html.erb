@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brighton Belles</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container">
+    <div id="headerimage"></div>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container" style="width: auto">
+          
+          <ul class="nav">
+            <li class="active">
+              <a href="/">Home</a>
+            </li>
+            <li class="dropdown">
+              <a href="#"
+                 class="dropdown-toggle"
+                 data-toggle="dropdown">
+                Products
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/products">Cushions</a></li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="#">Purses</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#"
+                 class="dropdown-toggle"
+                 data-toggle="dropdown">
+                Styles
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="/products">Eiffel</a></li>
+                <li><a href="#">Butterfly</a></li>
+                <li><a href="#">Tweed</a></li>
+              </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Etsy</a></li>
+          </ul>
+
+          <div class="nav-collapse">
+            <form class="navbar-search pull-right">
+              <input type="text" class="search-query" placeholder="Search">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <%= yield %>
+
+    <div class="row">
+      <div class="span12" id="footer">
+        <div class="row">
+          <div class="span3 offset1">
+            <ul class="nav nav-list">
+              <li class="nav-header">
+                About Us
+              </li>
+              <li>Contact Us</li>
+              <li>Buying</li>
+              <li>Delivery</li>
+            </ul>
+          </div>
+          <div class="span3 offset1">
+            <ul class="nav nav-list">
+              <li class="nav-header">
+                Links
+              </li>
+              <li>Etsy</li>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Pinterest</li>
+            </ul>
+          </div>
+          <div class="span3 offset1">
+            <ul class="nav nav-list">
+              <li class="nav-header">
+                Products
+              </li>
+              <li>Cushions</li>
+              <li>Bags</li>
+              <li>Purses</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

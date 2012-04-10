@@ -2,50 +2,58 @@
   name: Eiffel Purse
   collection_id: 1
   product_range_id: 3
-  description:
-  etsy_url: http://etsy.com/BrightonBelleGifts/item/1
+  thumbnail: 160x200.png
 
 - id: 2
   name: Tweed Purse
   collection_id: 2
   product_range_id: 3
+  thumbnail: 160x200.png
 
 - id: 3
   name: Butterfly Purse
   collection_id: 3
   product_range_id: 3
+  thumbnail: 160x200.png
 
 - id: 4
   name: Eiffel Bag
   collection_id: 1
   product_range_id: 2
+  thumbnail: 160x200.png
 
 - id: 5
   name: Tweed Bag
   collection_id: 2
   product_range_id: 2
+  thumbnail: 160x200.png
 
 - id: 6
   name: Butterfly Bag
   collection_id: 3
   product_range_id: 2
+  thumbnail: 160x200.png
 
 - id: 7
   name: Eiffel Cushion
   collection_id: 1
   product_range_id: 1
+  thumbnail: 160x200.png
 
 - id: 8
   name: Tweed Cushion
   collection_id: 2
   product_range_id: 1
+  thumbnail: 160x200.png
 
 - id: 9
   name: Butterfly Cushion
   collection_id: 3
   product_range_id: 1
+  thumbnail: 160x200.png
 
 - id: 10
   name: iPad Case
   collection_id: 3
   product_range_id: 4
+  thumbnail: 160x200.png

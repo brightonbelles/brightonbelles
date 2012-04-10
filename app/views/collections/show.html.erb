@@ -3,19 +3,21 @@
 
     <ul class="breadcrumb">
       <li>
-        <a href="/">Home</a> <span class="divider">/</span>
+        <%= link_to 'Home', :root %> <span class="divider">/</span>
       </li>
       <li>
-        <a href="#">Collections</a> <span class="divider">/</span>
+        <%= link_to 'Collections', collections_path %> <span class="divider">/</span>
       </li>
-      <li class="active"><%= @collection.name %></li>
+      <li class="active">
+        <%= @collection.name %>
+      </li>
     </ul>
-    
+
     <ul class="thumbnails">
       <% @products.each_with_index do |product, i|  %>
         <li class="span2">
           <%= link_to(product, { 'data-target' => "#product#{i}", 'class' => 'thumbnail' }) do %>
-            <%= image_tag '160x200.png' %>
+            <%= image_tag '160x200.png', :alt => product.name %>
           <% end %>
         </li>
       <% end %>
@@ -32,5 +34,4 @@
       <% end %>
     </div>
   </div>
-
 </div>

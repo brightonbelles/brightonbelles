@@ -6,15 +6,15 @@
         <%= link_to 'Home', :root %> <span class="divider">/</span>
       </li>
       <li class="active">
-        All Products
+        All Collections
       </li>
     </ul>
 
     <% i = 0 %>
-    <% for range in @ranges %>
-      <h2><%= range.name %></h2>
+    <% for collection in @collections %>
+      <h2><%= collection.name %></h2>
       <ul class="thumbnails">
-        <% for product in range.products %>
+        <% for product in collection.products %>
           <li class="span2">
             <%= link_to(product, { 'data-target' => "#product#{i}", 'class' => 'thumbnail' }) do %>
               <%= image_tag '160x200.png', :alt => product.name %>

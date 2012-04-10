@@ -1,6 +1,18 @@
 <div class="row">
   <div class="span8">
 
+    <ul class="breadcrumb">
+      <li>
+        <%= link_to 'Home', :root %> <span class="divider">/</span>
+      </li>
+      <li>
+        <%= link_to @product.collection.name, @product.collection %> <span class="divider">/</span>
+      </li>
+      <li class="active">
+        <%= @product.name %>
+      </li>
+    </ul>
+
     <div id="myCarousel" class="carousel">
       <div class="carousel-inner">
         <div class="active item">
@@ -32,7 +44,7 @@
   </div>
 
   <div class="span4">
-    <h3>Product One</h3>
+    <h3><%= @product.name %></h3>
     <p>Stuff about this product</p>
   </div>
 

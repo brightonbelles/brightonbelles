@@ -3,12 +3,14 @@
 
     <ul class="breadcrumb">
       <li>
-        <a href="/">Home</a> <span class="divider">/</span>
+        <%= link_to 'Home', :root %> <span class="divider">/</span>
       </li>
       <li>
-        <a href="#">Products</a> <span class="divider">/</span>
+        <%= link_to 'Products', product_ranges_path %> <span class="divider">/</span>
       </li>
-      <li class="active"><%= @range.name %></li>
+      <li class="active">
+        <%= @range.name %>
+      </li>
     </ul>
     
     <ul class="thumbnails">

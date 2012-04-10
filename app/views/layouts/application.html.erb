@@ -17,7 +17,7 @@
           
           <ul class="nav">
             <li class="active">
-              <a href="/">Home</a>
+              <%= link_to 'Home', :root %>
             </li>
             <li class="dropdown">
               <a href="#"
@@ -30,6 +30,8 @@
                 <% for range in @ranges %>
                   <li><%= link_to range.name, range %></li>
                 <% end %>
+                <li class="divider"></li>
+                <li><%= link_to 'All Products', product_ranges_path %></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -43,6 +45,8 @@
                 <% for collection in @collections %>
                   <li><%= link_to collection.name, collection %></li>
                 <% end %>
+                <li class="divider"></li>
+                <li><%= link_to 'All Collections', collections_path %></li>
               </ul>
             </li>
             <li><a href="#">About</a></li>

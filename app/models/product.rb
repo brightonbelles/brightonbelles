@@ -5,4 +5,8 @@ class Product < ActiveYaml::Base
 
   belongs_to :collection
   belongs_to :product_range
+
+  def to_param
+    "#{id}-#{name.to_url}"
+  end
 end

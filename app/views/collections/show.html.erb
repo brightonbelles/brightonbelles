@@ -29,7 +29,7 @@
       <% @products.each_with_index do |product, i|  %>
         <div class="tab-pane<% if i == 0 %> active<% end %>" id="product<%= i %>">
           <h3><%= product.name %></h3>
-          <p>Stuff about this product</p>
+          <%= simple_format product.description %>
         </div>
       <% end %>
     </div>

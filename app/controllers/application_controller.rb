@@ -1,7 +1,10 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
-  before_filter :reload_yaml
+  if ENV['RAILS_ENV'] == 'development'
+    before_filter :reload_yaml
+  end
+
   before_filter :load_ranges
 
   private

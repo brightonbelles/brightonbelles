@@ -15,7 +15,7 @@
     
     <ul class="thumbnails">
       <% @products.each_with_index do |product, i|  %>
-        <li class="span2">
+        <li class="span4">
           <%= link_to(product, { 'data-target' => "#product#{i}", 'class' => 'thumbnail' }) do %>
             <%= image_tag product.thumbnail, :alt => product.name %>
           <% end %>

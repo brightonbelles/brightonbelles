@@ -6,6 +6,9 @@
         <%= link_to 'Home', :root %> <span class="divider">/</span>
       </li>
       <li>
+        <%= link_to @product.product_range.name, @product.product_range %> <span class="divider">/</span>
+      </li>
+      <li>
         <%= link_to @product.collection.name, @product.collection %> <span class="divider">/</span>
       </li>
       <li class="active">
@@ -16,21 +19,21 @@
     <div id="myCarousel" class="carousel">
       <div class="carousel-inner">
         <div class="active item">
-          <img src="/assets/770x550.png">
+          <%= image_tag @product.image1, :alt => 'First product image' %>
           <div class="carousel-caption">
             <h4>First Thumbnail label</h4>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
           </div>
         </div>
         <div class="item">
-          <img src="/assets/770x550.png">
+          <%= image_tag @product.image2, :alt => 'Second product image' %>
           <div class="carousel-caption">
             <h4>Second Thumbnail label</h4>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
           </div>
         </div>
         <div class="item">
-          <img src="/assets/770x550.png">
+          <%= image_tag @product.image3, :alt => 'Third product image' %>
           <div class="carousel-caption">
             <h4>Third Thumbnail label</h4>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -46,6 +49,8 @@
   <div class="span4">
     <h3><%= @product.name %></h3>
     <%= simple_format @product.description %>
+    
+    <%= link_to('Buy Now on etsy.com', @product.etsy_url, { :class => 'btn btn-large btn-primary' }) %>
   </div>
 
 </div>

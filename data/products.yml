@@ -2,58 +2,214 @@
   name: Eiffel Purse
   collection_id: 1
   product_range_id: 3
-  thumbnail: 160x200.png
+  thumbnail: eiffelbackgroundthumb.jpg
+  description: 
+    Here is a fabulous purse for you to keep your belongings safe in real style! 
+   
+    This gorgeous coin purse has been handmade from wonderful quality quilting weight cotton. 
+   
+    The main fabric colour is a lovely vibrant turquoise, and the super chic Eiffel Tower design is a rich chocolate brown. 
+
+    The interior of the purse is fully lined with polyester. 
+    
+    It has also been interfaced and interlined to give it lots of volume as well as making it nice and sturdy.
+ 
+    It is secured by an antique brass effect kisslock clasp that measures 4 inches (10cm) from end to end
+  image1: eiffelbackground.jpg
+  image2: eiffelbackground.jpg
+  image3: butterflypurse002.jpg
+  esty_url: http://www.etsy.com/listing/82900126/turquoise-eiffel-tower-coin-purse
 
 - id: 2
   name: Tweed Purse
   collection_id: 2
   product_range_id: 3
-  thumbnail: 160x200.png
+  thumbnail: butterflypursethumb001.jpg
+  image1: 2tweedhandbag770x550.jpg
+  image2: tweedhandbag770x550.jpg
+  image3: tweedhandbag770x550.jpg
 
 - id: 3
   name: Butterfly Purse
   collection_id: 3
   product_range_id: 3
-  thumbnail: 160x200.png
+  thumbnail: butterflypursethumb001.jpg
+  description: 
+    
+    
+    Here is a beautiful handmade butterfly patterned coin purse, fully lined with polyester. 
+   
+    
+    Secured by an antique brass effect kisslock clasp it is the perfect size for keeping your money and cards safe for you to spend on more pretty things!
+    
+    
+    The purse frame measures 4 inches (10cm) from end to end.
+  
+  image1: butterflypurse001.jpg
+  image2: butterflypurse002.jpg
+  image3: butterflypurse002.jpg
+  etsy_url: http://www.etsy.com/listing/79003320/multicoloured-butterfly-coin-purse
 
 - id: 4
   name: Eiffel Bag
   collection_id: 1
   product_range_id: 2
-  thumbnail: 160x200.png
+  thumbnail: 4thumbeiffelbag.jpg
+  description: 
+    Ooh la la!
+
+    This beautiful bag has been handmade from fabulous turquoise quilting weight cotton, decorated with a rich chocolate brown Eiffel Tower design.
+
+    The interior of the bag is fully lined with polyester and has been interlined to make it nice and sturdy. 
+    
+    It has two pockets, one with a magnetic snap closure and the other with a secure elastic top.
+
+    The top of the bag secures with an antique brass kisslock clasp which measures 8 1/4 inches (20.5cm) wide by 3/12 inches (9cm) high.
+    
+    The bag has a 3 ft (1m) long shoulder strap that has been securely attached to brass swivel clips by a pair of brass coloured rivets.
+  
+  image1: 4eiffelbag.jpg
+  image2: eiffelbag7.jpg
+  image3: 4butterflybag.jpg
+  etsy_url: http://www.etsy.com/listing/83063904/turquoise-eiffel-tower-handbag
 
 - id: 5
   name: Tweed Bag
   collection_id: 2
   product_range_id: 2
-  thumbnail: 160x200.png
+  thumbnail: thumbtweedhandbag.jpg
+  description:  
+    This beautiful handmade raspberry tweed handbag is perfect for carrying your belongings in style.
+
+
+    I have constructed the purse to have a sturdy structure and a great shape and I've fully lined the interior with polyester. 
+
+
+    It has two interior pockets, one with a magnetic snap closure and one with a secure elastic top, just perfect for keeping your phone and other small items in.
+
+
+    It also has a 3' (1m) strap made from the same tweed, which is secured to the bag using brass effect swivel clips and brass rivets.
+
+
+    The bag measures 12 inches (30cm) at the widest point and 10 inches (25cm) at the highest.
+  
+  image1: 2tweedhandbag770x550.jpg
+  image2: tweedhandbag770x550.jpg
+  image3: tweedhandbag770x550.jpg
+  etsy_url: http://www.etsy.com/listing/80801278/raspberry-tweed-handbag
 
 - id: 6
   name: Butterfly Bag
   collection_id: 3
   product_range_id: 2
-  thumbnail: 160x200.png
+  thumbnail: 2thumbbutterflybag.jpg
+  description: 
+    Carry your belongings in amazing style!
+
+    
+    This lovely handbag is handmade from wonderful cotton with a multicoloured butterfly design.
+    
+    
+    It has an antique brass effect kisslock clasp and a 39inch (100cm) long shoulder strap which is secured using brass effect rivets. 
+
+    
+    It is fully lined with polyester and has 2 inner pockets, one with a magnetic snap closure and the other with an elasticated top. 
+    
+    
+    It has also been interfaced and interlined to give a a good strong structure. The handbag clasp measures 8 1/4in (W) x 3 1/2in (H) (20.5cm x 9cm). 
+    
+   
+    The bag measures 10 1/2 inches by 12 /12 inches (26.5cm by 32cm) at the tallest and the widest points.
+  
+  image1: 2butterflybag.jpg
+  image2: 4butterflybag.jpg
+  image3: 5butterflybag.jpg
+  
+  etsy_url: http://www.etsy.com/listing/79105421/butterfly-shoulder-bag-with-kisslock?ref=v1_other_1
 
 - id: 7
-  name: Eiffel Cushion
+  name: Awesome Eiffel Cushion
   collection_id: 1
   product_range_id: 1
-  thumbnail: 160x200.png
-
+  thumbnail: 2eiffelcushionthumb.jpg
+  description: 
+    Ooh la la!
+    
+    Turquoise and Brown Eiffel Tower Design Cushion with Chocolate Piping.
+   
+    This beautiful handmade 18’’ (45cm) square scatter cushion is filled with with 100% duck feather. 
+    
+    The front panel is made from wonderful quality quilting weight cotton with a super sophisticated Eiffel Tower design in turquoise and brown. 
+    
+    The back panel of the cushion cover is made from lovely, soft caramel brushed cotton canvas. 
+    
+    The cushion is topped off with dark chocolate piping around the edge and a zip closure at the top.
+  
+  image1: 2eiffelcushion.jpg
+  image2: 3eiffelcushion.jpg
+  image3: triplecushionstackbackroung.jpg
+  etsy_url: http://www.etsy.com/listing/77582821/turquoise-eiffel-tower-scatter-cushion
+  
+  
 - id: 8
-  name: Tweed Cushion
-  collection_id: 2
+  name: Pink Eiffel Cushion
+  collection_id: 1
   product_range_id: 1
-  thumbnail: 160x200.png
+  thumbnail: pinkeiffel001thumb.jpg
+  description: I are Super 
+  image1: pinkeiffel001.jpg
+  image2: pinkeiffel5.jpg
+  image3: pinkeiffel6.jpg
+  etsy_url: 
 
 - id: 9
   name: Butterfly Cushion
   collection_id: 3
   product_range_id: 1
-  thumbnail: 160x200.png
+  thumbnail: butterflycushionthumb.jpg
+  description: 
+    
+    Scatter Cushion with Butterfly Design.
+    
+    Here is a little ray of summery sunshine for your room all year round! 
+   
+    This beautiful handmade 18’’ (45cm) square scatter cushion. 
+    
+    The cushion inner itself is filled with 100% duck feather and the cushion cover has a zip closure.
+   
+    The front panel is made from wonderful quality quilting weight cotton with a multicoloured butterfly design and has a hot pink piping around the edge. 
+   
+    The back panel is made from lovely, soft caramel brushed cotton canvas.
+  
+  image1: butterflycushion.jpg
+  image2: 5butterflycushion.jpg
+  image3: triplecushionstackbackroung.jpg
+  etsy_url: http://www.etsy.com/listing/77581509/scatter-cushion-with-multicoloured
+
 
 - id: 10
-  name: iPad Case
+  name: Eiffel iPad Case
+  collection_id: 1
+  product_range_id: 4
+  thumbnail: 160x200.png
+  image1: 770x550.png
+  image2: 770x550.png
+  image3: 770x550.png
+  
+- id: 11
+  name: Butterfly iPad Case
   collection_id: 3
   product_range_id: 4
   thumbnail: 160x200.png
+  image1: 770x550.png
+  image2: 770x550.png
+  image3: 770x550.png
+  
+- id: 12
+  name: Tweed iPad Case
+  collection_id: 2
+  product_range_id: 4
+  thumbnail: http://placehold.it/260x180
+  image1: 770x550.png
+  image2: 770x550.png
+  image3: 770x550.png

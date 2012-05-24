@@ -4,6 +4,7 @@ gem 'rails', '3.2.1'
 
 gem 'active_hash'
 gem 'stringex'
+gem 'ferret'
 
 group :assets do
   gem 'twitter-bootstrap-rails', '~> 2.0'

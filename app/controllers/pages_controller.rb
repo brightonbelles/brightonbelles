@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
 
-  def home
+  def show
+    render "pages/#{params[:id]}"
   end
 
 end

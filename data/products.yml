@@ -21,13 +21,25 @@
   esty_url: http://www.etsy.com/listing/82900126/turquoise-eiffel-tower-coin-purse
 
 - id: 2
-  name: Tweed Purse
-  collection_id: 2
+  name: Pink Eiffel Tower Purse
+  collection_id: 1
   product_range_id: 3
-  thumbnail: butterflypursethumb001.jpg
-  image1: 2tweedhandbag770x550.jpg
-  image2: tweedhandbag770x550.jpg
-  image3: tweedhandbag770x550.jpg
+  thumbnail: pinkeiffelpurse.jpg
+  description: 
+   
+    This gorgeous coin purse has been handmade from wonderful quality quilting weight cotton.
+    
+    The main fabric colour is a beautiful pale pink, and the super chic Eiffel Tower design is a rich chocolate brown. 
+
+    The purse has also been interfaced and interlined to give it lots of volume as well as making it nice and sturdy.
+    
+    It is secured by an antique brass effect kisslock clasp and is fully lined with polyester.
+    
+    The purse frame measures 4 inches (10cm) from end to end
+
+  image1: pinkeiffelpurse.jpg
+  image2: pinkeiffelpurse2.jpg
+  image3: pinkeiffelpurse3.jpg
 
 - id: 3
   name: Butterfly Purse
@@ -35,13 +47,9 @@
   product_range_id: 3
   thumbnail: butterflypursethumb001.jpg
   description: 
-    
-    
     Here is a beautiful handmade butterfly patterned coin purse, fully lined with polyester. 
    
-    
     Secured by an antique brass effect kisslock clasp it is the perfect size for keeping your money and cards safe for you to spend on more pretty things!
-    
     
     The purse frame measures 4 inches (10cm) from end to end.
   
@@ -79,20 +87,18 @@
   product_range_id: 2
   thumbnail: thumbtweedhandbag.jpg
   description:  
-    This beautiful handmade raspberry tweed handbag is perfect for carrying your belongings in style.
+    This beautiful handmade handbag is perfect for carrying your belongings in style.
 
-
-    I have constructed the purse to have a sturdy structure and a great shape and I've fully lined the interior with polyester. 
-
-
-    It has two interior pockets, one with a magnetic snap closure and one with a secure elastic top, just perfect for keeping your phone and other small items in.
-
-
+    The handbag exterior is made from a gorgeous raspberry tweed and it is attached to an antique brass effect kisslock frame. 
+    
+    It is fully lined and has two interior pockets, one with a magnetic snap closure and one with a secure elastic top.
+    
+    These pockets are the perfect size for keeping your phone or other small items safe and secure.
+    
     It also has a 3' (1m) strap made from the same tweed, which is secured to the bag using brass effect swivel clips and brass rivets.
-
-
+    
     The bag measures 12 inches (30cm) at the widest point and 10 inches (25cm) at the highest.
-  
+
   image1: 2tweedhandbag770x550.jpg
   image2: tweedhandbag770x550.jpg
   image3: tweedhandbag770x550.jpg
@@ -106,19 +112,18 @@
   description: 
     Carry your belongings in amazing style!
 
+    This lovely handbag has been handmade from beautiful cotton with a multicoloured butterfly design.
     
-    This lovely handbag is handmade from wonderful cotton with a multicoloured butterfly design.
+    It is fully lined and has two interior pockets, one with a magnetic snap closure and one with a secure elastic top.
     
+    It has also been interfaced and interlined to give a a good strong structure. 
     
-    It has an antique brass effect kisslock clasp and a 39inch (100cm) long shoulder strap which is secured using brass effect rivets. 
+    It has an antique brass effect kisslock clasp and a 39 inch (100cm) long shoulder strap which is secured using brass effect rivets. 
 
+    The handbag clasp measures 8 1/4in (W) x 3 1/2in (H) 
     
-    It is fully lined with polyester and has 2 inner pockets, one with a magnetic snap closure and the other with an elasticated top. 
+    (20.5cm x 9cm). 
     
-    
-    It has also been interfaced and interlined to give a a good strong structure. The handbag clasp measures 8 1/4in (W) x 3 1/2in (H) (20.5cm x 9cm). 
-    
-   
     The bag measures 10 1/2 inches by 12 /12 inches (26.5cm by 32cm) at the tallest and the widest points.
   
   image1: 2butterflybag.jpg
@@ -135,8 +140,6 @@
   description: 
     Ooh la la!
     
-    Turquoise and Brown Eiffel Tower Design Cushion with Chocolate Piping.
-   
     This beautiful handmade 18’’ (45cm) square scatter cushion is filled with with 100% duck feather. 
     
     The front panel is made from wonderful quality quilting weight cotton with a super sophisticated Eiffel Tower design in turquoise and brown. 
@@ -156,11 +159,24 @@
   collection_id: 1
   product_range_id: 1
   thumbnail: pinkeiffel001thumb.jpg
-  description: I are Super 
+  description: 
+    
+    Add a bit of Parisian chic to your room with this beautiful handmade 18’’ (45cm) square scatter cushion.
+
+    The front panel is made from wonderful quilting weight cotton, which has a super Eiffel Tower design in pale pink and brown. 
+    
+    The back panel of the cushion cover is made from lovely, soft caramel coloured, brushed cotton canvas.
+
+    The cushion is finished with dark chocolate piping around the edge and has a zip closure at the top. 
+    
+    Inside the cover is a cushion filled with with 100% duck feather.
+ 
   image1: pinkeiffel001.jpg
   image2: pinkeiffel5.jpg
   image3: pinkeiffel6.jpg
-  etsy_url: 
+  etsy_url: https://www.etsy.com/listing/83487711/pale-pink-eiffel-tower-cushion
+
+
 
 - id: 9
   name: Butterfly Cushion
@@ -187,39 +203,15 @@
   etsy_url: http://www.etsy.com/listing/77581509/scatter-cushion-with-multicoloured
 
 
-- id: 10
-  name: Eiffel iPad Case
-  collection_id: 1
-  product_range_id: 4
-  thumbnail: 160x200.png
-  image1: 770x550.png
-  image2: 770x550.png
-  image3: 770x550.png
+
   
-- id: 11
-  name: Butterfly iPad Case
-  collection_id: 3
-  product_range_id: 4
-  thumbnail: 160x200.png
-  image1: 770x550.png
-  image2: 770x550.png
-  image3: 770x550.png
-  
-- id: 12
-  name: Tweed iPad Case
-  collection_id: 2
-  product_range_id: 4
-  thumbnail: http://placehold.it/260x180
-  image1: 770x550.png
-  image2: 770x550.png
-  image3: 770x550.png
-  
+
 - id: 13
   name: Beach Huts Tote Bag
   collection_id: 4
   product_range_id: 2
-  thumbnail: 160x200.png
-  image1: 770x550.png
-  image2: 770x550.png
-  image3: 770x550.png
+  thumbnail: beachhuttote.jpg
+  image1: beachhuttote.jpg
+  image2: beachhuttote2.jpg
+  image3: beachhuttote2.jpg
   

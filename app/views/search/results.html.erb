@@ -2,9 +2,13 @@
   <% @matches.each do |product| %>
     <div class="row">
       <div class="span2">
-        <%= link_to product do %>
-          <%= image_tag product.thumbnail, :alt => product.name %>
-        <% end %>
+        <ul class="thumbnails">
+          <li>
+            <%= link_to product, :class => 'thumbnail' do %>
+              <%= image_tag product.thumbnail, :alt => product.name %>
+            <% end %>
+    	  </li>
+        </ul>
       </div>
       <div class="span10">
         <h3><%= link_to product.name, product %></h3>

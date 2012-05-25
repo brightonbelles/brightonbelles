@@ -1,11 +1,8 @@
 - id: 1
   name: Cushions
   
-- id: 2
-  name: Bags
-  
 - id: 3
   name: Purses
   
-- id: 4
-  name: Gadget Cases
+- id: 2
+  name: Bags

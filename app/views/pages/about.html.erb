@@ -1,1 +1,43 @@
-<h1>About</h1>
+<div class="row">
+  <div class="span8">
+  
+  <h2 class="page_heading">Welcome to brightonbelles.com!</h2>
+
+<p>We are a small, independent and lively handicraft company based in Brighton and Hove.</p>
+
+<p>We spend our time designing and making by hand pretty things from the fabulous fabrics 
+we find. Our current range of products include purses, handbags and cushions. We also
+create individual, specially commissioned one-off items of clothing.</p>
+
+<p>All our fabrics are of the highest quality, complementing the skill that we use in 
+creating our products.</p>
+
+<p>We began by making gifts for our mothers, sisters and friends for birthdays and special 
+occasions. Brighton Belles grew through word of mouth and has blossomed over the past year
+inspiring us to set up a website to share our work even more.</p>
+
+<p>We hope you enjoy our website as much as we enjoy making and looking at pretty things.</p>
+
+<p>Our products will be available for you to purchase from our website in the near future,
+but until then you can find them at our Etsy shop 
+<%= link_to 'BrightonBelleGifts', 'http://www.etsy.com/shop/BrightonBelleGifts' %></p>
+
+<p>For any enquiries about our products please contact us at 
+<%= link_to 'info@brightonbelles.com', 'mailto:info@brightonbelles.com' %>
+or you can keep up to date with what we're doing on
+<%= link_to 'our blog.',  'http://blog.brightonbelles.com/'%></p>
+
+</div>
+
+<div class="span4">
+
+<ul class="thumbnails">
+<li>
+<%= link_to product_ranges_url, :class => 'thumbnail' do %>
+  <% image_tag '2butterflybag.jpg', :alt => 'Third Carousel Image' %>
+<% end %>
+</li>
+</ul>
+
+</div>
+</div>

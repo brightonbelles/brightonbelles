@@ -16,14 +16,21 @@
 // Example:
 // @linkColor: #ff0000;
 
-@navbarBackground: #a7c4bb;
-@navbarBackgroundHighlight: #a7c4bb;
+@linkColor: #a7c4bb;
+
+@navbarBackground: @linkColor;
+@navbarBackgroundHighlight: @linkColor;
 @navbarText: #fff;
 @navbarLinkColor: #fff;
-
-@linkColor: #a7c4bb;
 
 .navbar-search .search-query {
    border-color: #fff;
 }
 
+a.thumbnail {
+   border-width: 6px;
+}
+
+.page_heading {
+  color: @linkColor;
+}

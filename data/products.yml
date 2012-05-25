@@ -24,7 +24,7 @@
   name: Pink Eiffel Tower Purse
   collection_id: 1
   product_range_id: 3
-  thumbnail: pinkeiffelpurse.jpg
+  thumbnail: pinkeiffelpursethumb.jpg
   description: 
    
     This gorgeous coin purse has been handmade from wonderful quality quilting weight cotton.
@@ -210,7 +210,7 @@
   name: Beach Huts Tote Bag
   collection_id: 4
   product_range_id: 2
-  thumbnail: beachhuttote.jpg
+  thumbnail: beachhuttotethumb.jpg
   image1: beachhuttote.jpg
   image2: beachhuttote2.jpg
   image3: beachhuttote2.jpg

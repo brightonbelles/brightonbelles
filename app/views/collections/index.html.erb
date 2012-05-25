@@ -17,7 +17,7 @@
         <% for product in collection.products %>
           <li class="span2">
             <%= link_to(product, { 'data-target' => "#product#{i}", 'class' => 'thumbnail' }) do %>
-              <%= image_tag product.thumbnail, :alt => product.name %>
+              <%= image_tag(product.thumbnail, :alt => product.name, :size => '360x254') %>
             <% end %>
           </li>
           <% i = i + 1 %>

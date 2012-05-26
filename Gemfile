@@ -6,6 +6,12 @@ gem 'active_hash'
 gem 'stringex'
 gem 'ferret'
 gem 'thin'
+gem 'twitter'
+gem 'jquery-rails'
+
+group :development do
+  gem 'heroku'
+end
 
 group :assets do
   gem 'twitter-bootstrap-rails', '~> 2.0'
@@ -14,5 +20,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
-
+group :production do
+  gem 'rack-google_analytics', :require => "rack/google_analytics"
+  gem 'therubyracer-heroku'
+  gem 'newrelic_rpm' 
+end

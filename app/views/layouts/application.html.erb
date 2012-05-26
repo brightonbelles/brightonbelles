@@ -5,9 +5,14 @@
   <title>Brighton Belles</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <meta name="description" content="We are a handicraft company based in Brighton and Hove. We make pretty things by hand from fabulous fabric, like purses, handbags and cushions.">
+  <meta name="copyright" content="Copyright 2012, brightonbelles.com. All rights reserved."> 
   <%= csrf_meta_tags %>
+  <%= render 'common/fbmeta' %>
 </head>
 <body>
+  <div id="fb-root"></div>
+
   <div class="wrapper">
     <div class="container">
       <div id="headerimage"></div>

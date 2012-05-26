@@ -46,11 +46,23 @@
     
   </div>
 
-  <div class="span4">
-    <h3><%= @product.name %></h3>
-    <%= simple_format @product.description %>
-    
-    <%= link_to('Buy Now on etsy.com', @product.etsy_url, { :class => 'btn btn-large btn-primary' }) %>
+  <div class="row">
+    <div class="span4">
+      <h3><%= @product.name %></h3>
+      <%= simple_format @product.description %>
+      
+      <p><%= link_to('Buy Now on etsy.com', @product.etsy_url, { :class => 'btn btn-large btn-primary' }) %></p>
+
+      <p>
+        <div id="facebook" data-likeurl="<%= request.url %>">[Facebook]</div>
+        <a href="https://twitter.com/share" class="twitter-share-button"
+           data-text="I love this <%= @product.name %>" data-via="BellesBulletin" data-count="horizontal">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <a href="http://pinterest.com/pin/create/button/?url=<%= u request.url %>&media=<%= u asset_url(@product.image1) %>&description=<%= u 'Brighton Belles - Their Awesome ' + @product.name + '!' %>"
+           class="pin-it-button" count-layout="horizontal">Pin It</a>
+        <script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>
+      </p>
+    </div>
   </div>
 
 </div>

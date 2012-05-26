@@ -22,6 +22,5 @@ end
 
 group :production do
   gem 'rack-google_analytics', :require => "rack/google_analytics"
-  gem 'therubyracer-heroku'
-  gem 'newrelic_rpm' 
+  gem 'newrelic_rpm'
 end

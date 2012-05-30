@@ -12,7 +12,11 @@
       </div>
       <div class="span10">
         <h3><%= link_to product.name, product %></h3>
-        <p><%= product.description %></p>
+        <p>
+          <em><%= truncate(product.description, :separator => ' ', :length => 140, :omission => ' ...') %></em>
+          <em><%= link_to 'continued', product %></em>
+        </p>
+        <p><%= link_to('Buy Now on etsy.com', product.etsy_url, { :class => 'btn btn-primary' }) %></p>
       </div>
     </div>
   <% end %>

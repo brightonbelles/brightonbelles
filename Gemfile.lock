@@ -122,6 +122,8 @@ GEM
       sass (>= 3.1.10)
       tilt (~> 1.3)
     simple_oauth (0.1.8)
+    sitemap_generator (3.1.1)
+      builder
     sprockets (2.1.2)
       hike (~> 1.2)
       rack (~> 1.0)
@@ -165,6 +167,7 @@ DEPENDENCIES
   rack-google_analytics
   rails (= 3.2.1)
   sass-rails (~> 3.2.3)
+  sitemap_generator
   stringex
   thin
   twitter

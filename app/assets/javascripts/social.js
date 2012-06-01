@@ -1,5 +1,6 @@
-// facebook recommend button                                                    
 $(function() {
+
+    // facebook like button
     $.getScript('http://connect.facebook.net/en_US/all.js', function() {
         FB.init({appId: '258640794169371',
                  status: false,
@@ -15,4 +16,16 @@ $(function() {
             $(this).replaceWith(xfbml);
         });
     });
+
+    // tweet button
+    var js = $('<script></script>');
+    js[0].src = 'http://platform.twitter.com/widgets.js';
+    js[0].id = 'twitter-wjs';
+    $('.twitter-widget').after(js);
+    $('.twitter-widget').after(js);
+    
+    // pinterest pin button
+    js = $('<script></script>');
+    js[0].src = 'http://assets.pinterest.com/js/pinit.js';
+    $('.pin-it-button').after(js);
 });

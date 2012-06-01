@@ -62,6 +62,18 @@
            class="pin-it-button" count-layout="horizontal">Pin It</a>
         <script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>
       </p>
+
+      <h2>Other <%= @range.name %></h2>
+      <ul class="thumbnails">
+        <% @range_products.each do |product| %>
+          <li class="span2">
+            <%= link_to(product, { 'class' => 'thumbnail' }) do %>
+              <%= image_tag product.thumbnail, :alt => product.name %>
+            <% end %>
+            <p><%= link_to product.name, product %></p>
+          </li>
+        <% end %>
+      </ul>
     </div>
   </div>
 

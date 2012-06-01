@@ -2,6 +2,11 @@ class ProductsController < ApplicationController
 
   def show
     @product = Product.find_by_id(params[:id].gsub(/-.*$/, ''))
+    @range = @product.product_range
+    @range_products = @range.products.select {|p| p.id != @product.id }
+    if @range_products.length > 2
+      @range_products = @range_products[0..1]
+    end
   end
 
 end

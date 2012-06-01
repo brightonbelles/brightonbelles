@@ -12,7 +12,7 @@
 
     <% i = 0 %>
     <% for collection in @collections %>
-      <h2><%= collection.name %></h2>
+      <h2><%= link_to collection.name, collection %></h2>
       <ul class="thumbnails">
         <% for product in collection.products %>
           <li class="span2">

@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="span8">
+  <div class="span12">
 
     <ul class="breadcrumb">
       <li>
@@ -14,24 +14,18 @@
     </ul>
 
     <ul class="thumbnails">
-      <% @products.each_with_index do |product, i|  %>
-        <li class="span2">
-          <%= link_to(product, { 'data-target' => "#product#{i}", 'class' => 'thumbnail' }) do %>
-            <%= image_tag(product.thumbnail, :alt => product.name, :size => '360x254') %>
+      <% @products.each do |product|  %>
+        <li class="span4">
+          <%= link_to(product, { 'class' => 'thumbnail' }) do %>
+            <%= image_tag(product.thumbnail, :alt => product.name ) %>
           <% end %>
+          <div class="thumbnail-desc">
+            <h3><%= product.name %></h3>
+            <%= simple_format(truncate(product.description, :separator => ' ', :length => 140, :omission => '&nbsp;...')) %>
+          </div>
         </li>
       <% end %>
     </ul>
   </div>
 
-  <div class="span4">
-    <div class="tab-content">
-      <% @products.each_with_index do |product, i|  %>
-        <div class="tab-pane<% if i == 0 %> active<% end %>" id="product<%= i %>">
-          <h3><%= product.name %></h3>
-          <%= simple_format product.description %>
-        </div>
-      <% end %>
-    </div>
-  </div>
 </div>

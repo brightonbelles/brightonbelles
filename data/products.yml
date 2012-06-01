@@ -1,5 +1,5 @@
 - id: 1
-  name: Eiffel Purse
+  name: Eiffel Tower Purse
   collection_id: 1
   product_range_id: 3
   thumbnail: eiffelbackgroundthumb.jpg
@@ -15,8 +15,8 @@
   image2: eiffelbackground.jpg
   image3: butterflypurse002.jpg
   esty_url: http://www.etsy.com/listing/82900126/turquoise-eiffel-tower-coin-purse
-  thumbnail_label: Eiffel Tower Purse
-  thumbnail_detail: Details
+  carousel_label: Eiffel Tower Purse
+  carousel_detail: Details
 
 - id: 2
   name: Pink Eiffel Tower Purse
@@ -35,8 +35,8 @@
   image1: pinkeiffelpurse.jpg
   image2: pinkeiffelpurse2.jpg
   image3: pinkeiffelpurse3.jpg
-  thumbnail_label:
-  thumbnail_detail:
+  carousel_label:
+  carousel_detail:
 
 - id: 3
   name: Butterfly Purse
@@ -55,11 +55,11 @@
   image2: butterflypurse002.jpg
   image3: butterflypurse002.jpg
   etsy_url: http://www.etsy.com/listing/79003320/multicoloured-butterfly-coin-purse
-  thumbnail_label:
-  thumbnail_detail:
+  carousel_label:
+  carousel_detail:
 
 - id: 4
-  name: Eiffel Bag
+  name: Eiffel Tower Bag
   collection_id: 1
   product_range_id: 2
   thumbnail: 4thumbeiffelbag.jpg
@@ -82,8 +82,8 @@
   image2: eiffelbag7.jpg
   image3: 4butterflybag.jpg
   etsy_url: http://www.etsy.com/listing/83063904/turquoise-eiffel-tower-handbag
-  thumbnail_label:
-  thumbnail_detail:
+  carousel_label:
+  carousel_detail:
 
 - id: 5
   name: Tweed Bag
@@ -109,8 +109,8 @@
   image2: tweedhandbag770x550.jpg
   image3: tweedhandbag770x550.jpg
   etsy_url: http://www.etsy.com/listing/80801278/raspberry-tweed-handbag
-  thumbnail_label:
-  thumbnail_detail:
+  carousel_label:
+  carousel_detail:
 
 - id: 6
   name: Butterfly Bag
@@ -137,11 +137,11 @@
   image3: 5butterflybag.jpg
   
   etsy_url: http://www.etsy.com/listing/79105421/butterfly-shoulder-bag-with-kisslock?ref=v1_other_1
-  thumbnail_label:
-  thumbnail_detail:
+  carousel_label:
+  carousel_detail:
 
 - id: 7
-  name: Awesome Eiffel Cushion
+  name: Eiffel Tower Cushion
   collection_id: 1
   product_range_id: 1
   thumbnail: 2eiffelcushionthumb.jpg
@@ -161,17 +161,17 @@
   image2: 3eiffelcushion.jpg
   image3: triplecushionstackbackroung.jpg
   etsy_url: http://www.etsy.com/listing/77582821/turquoise-eiffel-tower-scatter-cushion
-  thumbnail_label: Eiffel Cushion
-  thumbnail_detail: Beautiful handmade 18’’ (45cm) square scatter cushion
+  carousel_label: Eiffel Tower Cushion
+  carousel_detail: Beautiful handmade 18in (45cm) square scatter cushion
   
   
 - id: 8
-  name: Pink Eiffel Cushion
+  name: Pink Eiffel Tower Cushion
   collection_id: 1
   product_range_id: 1
   thumbnail: pinkeiffel001thumb.jpg
   description: 
-    Add a bit of Parisian chic to your room with this beautiful handmade 18’’ (45cm) square scatter cushion.
+    Add a bit of Parisian chic to your room with this beautiful handmade 18in (45cm) square scatter cushion.
 
 
     The front panel is made from wonderful quilting weight cotton, which has a super Eiffel Tower design in pale pink and brown. The back panel of the cushion cover is made from lovely, soft caramel coloured, brushed cotton canvas.
@@ -186,8 +186,8 @@
   image2: pinkeiffel5.jpg
   image3: pinkeiffel6.jpg
   etsy_url: https://www.etsy.com/listing/83487711/pale-pink-eiffel-tower-cushion
-  thumbnail_label:
-  thumbnail_detail:
+  carousel_label:
+  carousel_detail:
 
 
 - id: 9
@@ -211,8 +211,8 @@
   image2: 5butterflycushion.jpg
   image3: triplecushionstackbackroung.jpg
   etsy_url: http://www.etsy.com/listing/77581509/scatter-cushion-with-multicoloured
-  thumbnail_label:
-  thumbnail_detail:
+  carousel_label:
+  carousel_detail:
 
 
 - id: 13
@@ -232,6 +232,6 @@
   image1: beachhuttote.jpg
   image2: beachhuttote2.jpg
   image3: beachhuttote2.jpg
-  thumbnail_label:
-  thumbnail_detail:
+  carousel_label:
+  carousel_detail:
   

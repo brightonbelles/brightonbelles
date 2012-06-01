@@ -12,15 +12,31 @@
       </div>
       <div class="span10">
         <h3><%= link_to product.name, product %></h3>
-        <p>
-          <em><%= truncate(product.description, :separator => ' ', :length => 140, :omission => ' ...') %></em>
-          <em><%= link_to 'continued', product %></em>
-        </p>
+        <p><%= truncate(product.description, :separator => ' ', :length => 140, :omission => ' ...') %></p>
         <p><%= link_to('Buy Now on etsy.com', product.etsy_url, { :class => 'btn btn-primary' }) %></p>
       </div>
     </div>
   <% end %>
 
 <% else %>
-  <p>No matches</p>
+  <p>We couldn't find any products matching your search. How about one of these...</p>
+  <p>&nbsp;</p>
+
+  <div class="row">
+    <div class="span12">
+      <ul class="thumbnails">
+        <% @randoms.each do |product|  %>
+          <li class="span4">
+            <%= link_to(product, { 'class' => 'thumbnail' }) do %>
+              <%= image_tag product.thumbnail, :alt => product.name %>
+            <% end %>
+            <div class="thumbnail-desc">
+              <h3><%= product.name %></h3>
+              <%= simple_format(truncate(product.description, :separator => ' ', :length => 140, :omission => '&nbsp;...')) %>
+            </div>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
 <% end %>

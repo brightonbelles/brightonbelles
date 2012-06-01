@@ -4,6 +4,9 @@ class SearchController < ApplicationController
     unless params[:q].blank?
 
       @matches = ferret_match(params[:q])
+      if @matches.empty?
+        @randoms = Product.all.shuffle[0..2]
+      end
       render 'search/results'
 
     else

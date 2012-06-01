@@ -10,16 +10,14 @@
       </li>
     </ul> -->
 
-    <% i = 0 %>
     <% for range in @ranges %>
       <ul class="thumbnails">
         <% for product in range.products %>
           <li class="span2">
-            <%= link_to(product, { 'data-target' => "#product#{i}", 'class' => 'thumbnail' }) do %>
+            <%= link_to(product, { 'class' => 'thumbnail' }) do %>
               <%= image_tag product.thumbnail, :alt => product.name %>
             <% end %>
           </li>
-          <% i = i + 1 %>
         <% end %>
       </ul>
     <% end %>

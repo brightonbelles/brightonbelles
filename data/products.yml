@@ -19,6 +19,8 @@
   image2: eiffelbackground.jpg
   image3: butterflypurse002.jpg
   esty_url: http://www.etsy.com/listing/82900126/turquoise-eiffel-tower-coin-purse
+  thumbnail_label: Eiffel Tower Purse
+  thumbnail_detail: Details
 
 - id: 2
   name: Pink Eiffel Tower Purse
@@ -40,6 +42,8 @@
   image1: pinkeiffelpurse.jpg
   image2: pinkeiffelpurse2.jpg
   image3: pinkeiffelpurse3.jpg
+  thumbnail_label:
+  thumbnail_detail:
 
 - id: 3
   name: Butterfly Purse
@@ -57,6 +61,8 @@
   image2: butterflypurse002.jpg
   image3: butterflypurse002.jpg
   etsy_url: http://www.etsy.com/listing/79003320/multicoloured-butterfly-coin-purse
+  thumbnail_label:
+  thumbnail_detail:
 
 - id: 4
   name: Eiffel Bag
@@ -80,6 +86,8 @@
   image2: eiffelbag7.jpg
   image3: 4butterflybag.jpg
   etsy_url: http://www.etsy.com/listing/83063904/turquoise-eiffel-tower-handbag
+  thumbnail_label:
+  thumbnail_detail:
 
 - id: 5
   name: Tweed Bag
@@ -98,11 +106,14 @@
     It also has a 3' (1m) strap made from the same tweed, which is secured to the bag using brass effect swivel clips and brass rivets.
     
     The bag measures 12 inches (30cm) at the widest point and 10 inches (25cm) at the highest.
+    
 
   image1: 2tweedhandbag770x550.jpg
   image2: tweedhandbag770x550.jpg
   image3: tweedhandbag770x550.jpg
   etsy_url: http://www.etsy.com/listing/80801278/raspberry-tweed-handbag
+  thumbnail_label:
+  thumbnail_detail:
 
 - id: 6
   name: Butterfly Bag
@@ -131,6 +142,8 @@
   image3: 5butterflybag.jpg
   
   etsy_url: http://www.etsy.com/listing/79105421/butterfly-shoulder-bag-with-kisslock?ref=v1_other_1
+  thumbnail_label:
+  thumbnail_detail:
 
 - id: 7
   name: Awesome Eiffel Cushion
@@ -152,6 +165,8 @@
   image2: 3eiffelcushion.jpg
   image3: triplecushionstackbackroung.jpg
   etsy_url: http://www.etsy.com/listing/77582821/turquoise-eiffel-tower-scatter-cushion
+  thumbnail_label: Eiffel Cushion
+  thumbnail_detail: Beautiful handmade 18’’ (45cm) square scatter cushion
   
   
 - id: 8
@@ -175,6 +190,8 @@
   image2: pinkeiffel5.jpg
   image3: pinkeiffel6.jpg
   etsy_url: https://www.etsy.com/listing/83487711/pale-pink-eiffel-tower-cushion
+  thumbnail_label:
+  thumbnail_detail:
 
 
 
@@ -201,6 +218,8 @@
   image2: 5butterflycushion.jpg
   image3: triplecushionstackbackroung.jpg
   etsy_url: http://www.etsy.com/listing/77581509/scatter-cushion-with-multicoloured
+  thumbnail_label:
+  thumbnail_detail:
 
 
 
@@ -211,7 +230,19 @@
   collection_id: 4
   product_range_id: 2
   thumbnail: beachhuttotethumb.jpg
+  description: Beach Hut Tote Bag
+
+    Perfect for a picnic or your shopping, this laminated cotton tote bag has enough space for all your essentials. 
+
+    Decorated with cheery beach huts, the bag measures 30cm tall by 25cm wide. 
+
+    There are two sturdy webbing straps that are 25cm long making it easy  to carry over your shoulder. 
+
+    Inside there is a pocket perfectly positioned to keep your most precious belongings to hand and secure.
+
   image1: beachhuttote.jpg
   image2: beachhuttote2.jpg
   image3: beachhuttote2.jpg
+  thumbnail_label:
+  thumbnail_detail:
   

@@ -1,6 +1,9 @@
 Brightonbelles::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
+  # single line logging
+  config.lograge.enabled = true
+
   # Google Analytics
   config.middleware.use("Rack::GoogleAnalytics", :web_property_id => "UA-24192546-1")
 

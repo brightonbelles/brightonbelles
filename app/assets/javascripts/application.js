@@ -1,6 +1,6 @@
 //= require jquery
 //= require jquery_ujs
-//= require social
+//= require_directory .
 //= require twitter/bootstrap
 
 $(function() {

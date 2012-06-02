@@ -1,3 +1,16 @@
+<div class="narrow-image">
+  <p>Welcome to our shop</p>
+  <%= link_to(@carousel_products[0], { 'class' => 'thumbnail' }) do %>
+    <% image_tag 'widepurse01.jpg', :alt => 'Butterfly Handbag' %>
+  <% end %>
+  <%= link_to(@carousel_products[1], { 'class' => 'thumbnail' }) do %>
+    <% image_tag 'frontcushions.jpg', :alt => 'Butterfly Handbag' %>
+  <% end %>
+  <%= link_to(@carousel_products[1], { 'class' => 'thumbnail' }) do %>
+    <% image_tag 'fronttweed.jpg', :alt => 'Butterfly Handbag' %>
+  <% end %>
+</div>
+
 <div id="myCarousel" class="carousel slide">
   <div class="carousel-inner">
     <div class="active item">
@@ -32,21 +45,11 @@
   <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 </div>
 
-<div class="row">
-  <div class="span2">
-    <div id="facebook" data-likeurl="http://www.brightonbelles.com">
-      <a href="http://www.facebook.com/BrightonBelles">facebook.com/BrightonBelles</a>
-    </div>
+<div id="social">
+  <div id="facebook" data-likeurl="http://www.brightonbelles.com">
+    <a href="http://www.facebook.com/BrightonBelles">facebook.com/BrightonBelles</a>
   </div>
-  <div class="span2">
-    <div class="social-button twitter-follow">
-      <a href="http://twitter.com/BellesBulletin" class="twitter-follow-button twitter-widget"
-         data-width="160px" data-show-count="false">Follow @BellesBulletin</a>
-    </div>
-  </div>
-  <div class="span2">
-    <div class="social-button  pinterest-pinit">
-      <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.brightonbelles.com&media=http%3A%2F%2Fwww.brightonbelles.com%2Fassets%2FIMG_2107.JPG&description=Brighton%20Belles%20-%20pretty%20things" class="pin-it-button" count-layout="horizontal">Pin It</a>
-    </div>
-  </div>
+  <a href="http://twitter.com/BellesBulletin" class="twitter-follow-button twitter-widget"
+     data-width="160px" data-show-count="false">Follow @BellesBulletin</a>
+  <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.brightonbelles.com&media=http%3A%2F%2Fwww.brightonbelles.com%2Fassets%2FIMG_2107.JPG&description=Brighton%20Belles%20-%20pretty%20things" class="pin-it-button" count-layout="horizontal">Pin It</a>
 </div>

@@ -16,6 +16,12 @@
       </li>
     </ul>
 
+    <div class="narrow-image">
+      <%= link_to(asset_url(@product.image1), { 'class' => 'thumbnail' }) do %>
+        <%= image_tag @product.image1, :alt => 'First product image' %>
+      <% end %>
+    </div>
+
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="active item">
@@ -44,7 +50,7 @@
       <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
     
-    <p>
+    <div id="social">
       <div id="facebook" data-likeurl="<%= request.url %>">
         <a href="http://www.facebook.com/BrightonBelles">facebook.com/BrightonBelles</a>
       </div>
@@ -54,7 +60,7 @@
 
       <a href="http://pinterest.com/pin/create/button/?url=<%= u request.url %>&media=<%= u asset_url(@product.image1) %>&description=<%= u 'Brighton Belles - Their Awesome ' + @product.name + '!' %>"
          class="pin-it-button" count-layout="horizontal">Pin It</a>
-    </p>
+    </div>
 
   </div>
 
@@ -62,6 +68,15 @@
     <div class="span4">
       <h3><%= @product.name %></h3>
       <%= simple_format @product.description %>
+
+      <div class="narrow-image">
+        <%= link_to(asset_url(@product.image2), { 'class' => 'thumbnail' }) do %>
+          <%= image_tag @product.image2, :alt => 'Second product image' %>
+        <% end %>
+        <%= link_to(asset_url(@product.image3), { 'class' => 'thumbnail' }) do %>
+          <%= image_tag @product.image3, :alt => 'Third product image' %>
+        <% end %>
+      </div>
 
       <div class="buy_button">
         <p><%= link_to('Buy Now on etsy.com', @product.etsy_url, { :class => 'btn btn-large btn-primary' }) %></p>

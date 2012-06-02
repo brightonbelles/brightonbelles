@@ -1,0 +1,564 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #464032;
+        background-color: #C6DFE5;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #221D1D;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 160%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #466964;
+}
+
+a:hover {
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header {
+	width: 940px;
+	height: 62px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	height: 40px;
+	margin: 0;
+	color: #000000;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	float: left;
+	padding-left: 20px;
+	letter-spacing: -1px;
+	//text-transform: lowercase;
+	font-size: 3.8em;
+}
+
+#logo p {
+	float: left;
+	margin: 0;
+	padding: 26px 0 0 10px;
+	font: normal 14px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #5E4E38;
+} 
+
+#logo p a {
+	color: #5E4E38;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #466964;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 280px;
+	height: 60px;
+	padding: 20px 0px 0px 0px;
+	background: #D1D1BC;
+	border-bottom: 4px solid #FFFFFF;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 170px;
+	padding: 6px 5px 2px 5px;
+	border: none;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #464032;
+}
+
+#search-submit {
+	width: 50px;
+	height: 23px;
+	border: 1px solid #302C29;
+	background: #302C29;
+	font-weight: bold;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+/* Menu */
+
+#menu {
+	width: 940px;
+        height: 36px;
+        margin: 0 auto;
+	padding: 0;
+	background: #A7C4BB;
+}
+
+#menu ul {
+	margin: 0px 0px 0px 10px;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	height: 26px;
+	margin-bottom: 10px;
+        padding: 10px 20px 0px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: #6C8C84;
+        text-decoration: underline;
+}
+
+#menu .current_page_item a {
+	background: #6C8C84;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#menu .current_page_item a:hover {
+        text-decoration: underline;
+}
+
+/* Page */
+
+#page {
+	width: 940px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+
+#page-bgtop {
+	padding: 20px 0px;
+}
+
+#page-bgbtm {
+}
+
+/* Content */
+
+#content {
+        float: right;
+	width: 620px;
+        height: 580px;
+        margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+}
+
+#main {
+        position: relative;
+}
+
+img#main {
+	margin-bottom: 6px;
+	margin-left: 4px;
+	border: solid 5px #6C8C84;
+        position:absolute; left:0; top:0;
+}    
+
+img#main2 {
+	margin-bottom: 6px;
+	margin-left: 4px;
+	border: solid 5px #6C8C84;
+        position:absolute; left:0; top:0;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 280px;
+	padding: 0px;
+	color: #585858;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 0px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	border-bottom: 1px dotted #E5E0C6;
+	margin: 0px 30px;
+	border-right: none;
+}
+
+#sidebar li a {
+        text-decoration: underline;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	padding-left: 30px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background: #A7C4BB;
+	letter-spacing: -.5px;
+	font-size: 1.8em;
+	color: #FFFFFF;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 5px 5px 5px 5px;
+}
+
+#sidebar a {
+	border: none;
+	color: #898989;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+	color: #6E6E6E;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer {
+	width: 940px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	border-top: 4px solid #D1D1BC;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 20px;
+	line-height: normal;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #444444;
+}
+
+#footer a {
+	color: #466964;
+}
+
+/* Photos */
+
+#photos {
+    display: none;
+}
+/* 
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+  You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+#gallery-wrapper {
+	width: 620px;
+	height: 500px;
+	margin-bottom: 20px;
+}
+
+#gallery
+{
+	width: 620px;
+        position: relative;
+}
+
+#gallery img.gallery-output
+{
+	width: 604px;
+	height: 375px;
+	margin-bottom: 6px;
+	margin-left: 4px;
+	border: solid 5px #6C8C84;
+
+        position:absolute; left:0; top:0;
+}
+
+#gallery img.gallery-output2
+{
+	width: 604px;
+	height: 375px;
+	margin-bottom: 6px;
+	margin-left: 4px;
+	border: solid 5px #6C8C84;
+
+        position:absolute; left:0; top:0;
+}
+
+#gallery span.caption
+{
+	display: block;
+	margin: 1em 0 1em 0;
+}
+
+#thumbnails {
+        padding-top: 390px;
+}
+
+#thumbnail-bg {
+	background: #6C8C84;
+}
+
+#thumbnails ul.thumbnails
+{
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 5px;
+}
+
+#thumbnails ul.thumbnails li
+{
+	float: left;
+	margin: 0 8px 1px 0;
+}
+
+#thumbnails ul.thumbnails li img .last 
+{
+	margin-right: 0px;
+}
+
+#thumbnails ul.thumbnails li img
+{
+	width: 137px;
+	height: 85px;
+	border: solid 5px #6C8C84;
+	cursor: pointer;
+}
+
+#thumbnails ul.thumbnails li img.active
+{
+	border: solid 5px #6C8C84;
+}
+
+.transparent {
+
+}
+/* 
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+  You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+/* Content */
+
+#photo-content {
+    margin: auto;
+    width: 620px;
+    padding: 0px 0px 0px 0px;
+}
+
+/* 
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+  You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+.post {
+  margin-bottom: 15px; }
+
+.post .title {
+  margin-bottom: 10px;
+  padding: 12px 0 0 0px;
+  letter-spacing: -0.5px;
+  color: #000000; }
+
+.post .title a {
+  color: #221D1D;
+  border: none; }
+
+.post .meta {
+  height: 30px;
+  border-bottom: 1px solid #DBDBDB;
+  background: #F4F4F4;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold; }
+
+.post .meta .date {
+  float: left;
+  height: 24px;
+  padding: 3px 15px;
+  color: #464032; }
+
+.post .meta .posted {
+  float: right;
+  height: 24px;
+  padding: 3px 15px;
+  color: #464032; }
+
+.post .meta a {
+  color: #464032; }
+
+.post .entry {
+  padding: 0px 0px 20px 0px;
+  padding-bottom: 20px;
+  text-align: justify; }
+
+.links {
+  padding-top: 20px;
+  font-size: 12px;
+  font-weight: bold; }
+/* 
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+  You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+#products h2 {
+  padding-left: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: #A7C4BB;
+  letter-spacing: -0.5px;
+  font-size: 1.8em;
+  color: #FFFFFF; }
+
+#products li {
+  list-style: none; }
+
+#products p {
+  color: #898989;
+  margin: 0;
+  border: 0; }
+.twitter-follow {
+    width: 160px;
+}
+
+.fb-like {
+}
+
+.pinterest-pinit {
+    width: 120px;
+    margin-left: 40px;
+}
+
+.social-button {
+    display: inline;
+}
+
+.social-buttons {
+    width: 550px;
+    margin: 0px auto;
+}
+/* 
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+  You can use Sass (SCSS) here: http://sass-lang.com/
+*/

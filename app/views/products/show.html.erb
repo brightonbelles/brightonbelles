@@ -79,7 +79,7 @@
       </div>
 
       <div class="buy_button">
-        <p><%= link_to('Buy Now on etsy.com', @product.etsy_url, { :class => 'btn btn-large btn-primary' }) %></p>
+        <%= link_to('Buy Now on etsy.com', @product.etsy_url, { :class => 'btn btn-large btn-primary', :target => '_blank' }) %>
       </div>
 
       <h2>Other <%= @range.name %></h2>

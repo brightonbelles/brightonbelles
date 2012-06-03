@@ -78,6 +78,8 @@
         <% end %>
       </div>
 
+      <h3 class="price"><%= number_to_currency(@product.price) %></h3>
+
       <div class="buy_button">
         <%= link_to('Buy Now on etsy.com', @product.etsy_url, { :class => 'btn btn-large btn-primary', :target => '_blank' }) %>
       </div>

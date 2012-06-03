@@ -17,7 +17,7 @@
   esty_url: http://www.etsy.com/listing/82900126/turquoise-eiffel-tower-coin-purse
   carousel_label: Eiffel Tower Purse
   carousel_detail: Details
-  price: 20
+  price: 15
 
 - id: 2
   name: Pink Eiffel Tower Purse
@@ -38,6 +38,7 @@
   image3: pinkeiffelpurse3.jpg
   carousel_label:
   carousel_detail:
+  price: 15
 
 - id: 3
   name: Butterfly Purse
@@ -58,6 +59,7 @@
   etsy_url: http://www.etsy.com/listing/79003320/multicoloured-butterfly-coin-purse
   carousel_label:
   carousel_detail:
+  price: 15
 
 - id: 4
   name: Eiffel Tower Bag
@@ -85,6 +87,7 @@
   etsy_url: http://www.etsy.com/listing/83063904/turquoise-eiffel-tower-handbag
   carousel_label:
   carousel_detail:
+  price: 25
 
 - id: 5
   name: Tweed Bag
@@ -112,6 +115,7 @@
   etsy_url: http://www.etsy.com/listing/80801278/raspberry-tweed-handbag
   carousel_label:
   carousel_detail:
+  price: 45
 
 - id: 6
   name: Butterfly Bag
@@ -140,6 +144,7 @@
   etsy_url: http://www.etsy.com/listing/79105421/butterfly-shoulder-bag-with-kisslock?ref=v1_other_1
   carousel_label:
   carousel_detail:
+  price: 25
 
 - id: 7
   name: Eiffel Tower Cushion
@@ -164,6 +169,7 @@
   etsy_url: http://www.etsy.com/listing/77582821/turquoise-eiffel-tower-scatter-cushion
   carousel_label: Eiffel Tower Cushion
   carousel_detail: Beautiful handmade 18in (45cm) square scatter cushion
+  price: 25
   
   
 - id: 8
@@ -189,6 +195,7 @@
   etsy_url: https://www.etsy.com/listing/83487711/pale-pink-eiffel-tower-cushion
   carousel_label:
   carousel_detail:
+  price: 25
 
 
 - id: 9
@@ -214,6 +221,7 @@
   etsy_url: http://www.etsy.com/listing/77581509/scatter-cushion-with-multicoloured
   carousel_label:
   carousel_detail:
+  price: 25
 
 
 - id: 13
@@ -235,4 +243,5 @@
   image3: beachhuttote2.jpg
   carousel_label:
   carousel_detail:
+  price: 12
   

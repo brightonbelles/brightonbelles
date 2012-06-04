@@ -14,7 +14,7 @@
   image1: eiffelbackground.jpg
   image2: eiffelbackground.jpg
   image3: butterflypurse002.jpg
-  esty_url: http://www.etsy.com/listing/82900126/turquoise-eiffel-tower-coin-purse
+  etsy_url: http://www.etsy.com/listing/82900126/turquoise-eiffel-tower-coin-purse
   carousel_detail1: Details
   carousel_detail2: Details
   carousel_detail3: Details
@@ -37,6 +37,7 @@
   image1: pinkeiffelpurse.jpg
   image2: pinkeiffelpurse2.jpg
   image3: pinkeiffelpurse3.jpg
+  etsy_url: http://www.etsy.com/listing/83316708/pale-pink-eiffel-tower-coin-purse
   carousel_detail:
   price: 15
 
@@ -89,7 +90,7 @@
   carousel_detail1:
   carousel_detail2:
   carousel_detail3:
-  price: 25
+  price: 30
 
 - id: 5
   name: Tweed Bag
@@ -143,12 +144,11 @@
   image1: 2butterflybag.jpg
   image2: 4butterflybag.jpg
   image3: 5butterflybag.jpg
-  
-  etsy_url: http://www.etsy.com/listing/79105421/butterfly-shoulder-bag-with-kisslock?ref=v1_other_1
+  etsy_url: http://www.etsy.com/listing/79105421/butterfly-shoulder-bag-with-kisslock
   carousel_detail1:
   carousel_detail2:
   carousel_detail3:
-  price: 25
+  price: 30
 
 - id: 7
   name: Eiffel Tower Cushion

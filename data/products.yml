@@ -15,8 +15,9 @@
   image2: eiffelbackground.jpg
   image3: butterflypurse002.jpg
   esty_url: http://www.etsy.com/listing/82900126/turquoise-eiffel-tower-coin-purse
-  carousel_label: Eiffel Tower Purse
-  carousel_detail: Details
+  carousel_detail1: Details
+  carousel_detail2: Details
+  carousel_detail3: Details
   price: 15
 
 - id: 2
@@ -36,7 +37,6 @@
   image1: pinkeiffelpurse.jpg
   image2: pinkeiffelpurse2.jpg
   image3: pinkeiffelpurse3.jpg
-  carousel_label:
   carousel_detail:
   price: 15
 
@@ -57,8 +57,9 @@
   image2: butterflypurse002.jpg
   image3: butterflypurse002.jpg
   etsy_url: http://www.etsy.com/listing/79003320/multicoloured-butterfly-coin-purse
-  carousel_label:
-  carousel_detail:
+  carousel_detail1:
+  carousel_detail2:
+  carousel_detail3:
   price: 15
 
 - id: 4
@@ -85,8 +86,9 @@
   image2: eiffelbag7.jpg
   image3: 4butterflybag.jpg
   etsy_url: http://www.etsy.com/listing/83063904/turquoise-eiffel-tower-handbag
-  carousel_label:
-  carousel_detail:
+  carousel_detail1:
+  carousel_detail2:
+  carousel_detail3:
   price: 25
 
 - id: 5
@@ -113,8 +115,9 @@
   image2: tweedhandbag770x550.jpg
   image3: tweedhandbag770x550.jpg
   etsy_url: http://www.etsy.com/listing/80801278/raspberry-tweed-handbag
-  carousel_label:
-  carousel_detail:
+  carousel_detail1:
+  carousel_detail2:
+  carousel_detail3:
   price: 45
 
 - id: 6
@@ -142,8 +145,9 @@
   image3: 5butterflybag.jpg
   
   etsy_url: http://www.etsy.com/listing/79105421/butterfly-shoulder-bag-with-kisslock?ref=v1_other_1
-  carousel_label:
-  carousel_detail:
+  carousel_detail1:
+  carousel_detail2:
+  carousel_detail3:
   price: 25
 
 - id: 7
@@ -193,8 +197,9 @@
   image2: pinkeiffel5.jpg
   image3: pinkeiffel6.jpg
   etsy_url: https://www.etsy.com/listing/83487711/pale-pink-eiffel-tower-cushion
-  carousel_label:
-  carousel_detail:
+  carousel_detail1:
+  carousel_detail2:
+  carousel_detail3:
   price: 25
 
 
@@ -219,8 +224,9 @@
   image2: 5butterflycushion.jpg
   image3: triplecushionstackbackroung.jpg
   etsy_url: http://www.etsy.com/listing/77581509/scatter-cushion-with-multicoloured
-  carousel_label:
-  carousel_detail:
+  carousel_detail1:
+  carousel_detail2:
+  carousel_detail3:
   price: 25
 
 
@@ -241,7 +247,8 @@
   image1: beachhuttote.jpg
   image2: beachhuttote2.jpg
   image3: beachhuttote2.jpg
-  carousel_label:
-  carousel_detail:
+  carousel_detail1:
+  carousel_detail2:
+  carousel_detail3:
   price: 12
   

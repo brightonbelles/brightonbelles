@@ -1,17 +1,10 @@
 <div class="row">
   <div class="span12">
 
-    <ul class="breadcrumb">
-      <li>
-        <%= link_to 'Home', :root %> <span class="divider">/</span>
-      </li>
-      <li class="active">
-        All Collections
-      </li>
-    </ul>
+    <h2>All Collections</h2>
 
     <% for collection in @collections %>
-      <h2><%= link_to collection.name, collection %></h2>
+      <h3><%= link_to collection.name, collection %></h3>
       <ul class="thumbnails">
         <% for product in collection.products %>
           <li class="span2">

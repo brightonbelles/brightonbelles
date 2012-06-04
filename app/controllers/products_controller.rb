@@ -4,6 +4,7 @@ class ProductsController < ApplicationController
     @product = Product.find_by_id(params[:id].gsub(/-.*$/, ''))
     @range = @product.product_range
     @range_products = @range.products.select {|p| p.id != @product.id }
+    @range_products.shuffle!
     if @range_products.length > 2
       @range_products = @range_products[0..1]
     end

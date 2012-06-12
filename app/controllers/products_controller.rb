@@ -1,5 +1,9 @@
 class ProductsController < ApplicationController
 
+  def index
+    @ranges = ProductRange.find(:all)
+  end
+
   def show
     @product = Product.find_by_id(params[:id].gsub(/-.*$/, ''))
     @range = @product.product_range

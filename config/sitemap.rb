@@ -7,7 +7,7 @@ SitemapGenerator::Sitemap.create do
     add page_path(:id => page)
   end
 
-  add product_ranges_path, :priority => 0.7, :changefreq => 'weekly'
+  add products_path, :priority => 0.7, :changefreq => 'weekly'
   add collections_path, :priority => 0.7, :changefreq => 'weekly'
 
   Product.find(:all).each do |product|

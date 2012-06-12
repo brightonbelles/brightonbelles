@@ -1,3 +1,4 @@
+<!--
 <div class="narrow-image">
   <p>Welcome to our shop!</p>
   <%= link_to(@carousel_products[0], { 'class' => 'thumbnail' }) do %>
@@ -10,39 +11,75 @@
     <% image_tag 'fronttweed.jpg', :alt => 'Butterfly Handbag' %>
   <% end %>
 </div>
+-->
 
-<div id="myCarousel" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="active item">
-      <%= link_to @carousel_products[0] do %>
-        <% image_tag 'widepurse01.jpg', :alt => 'Butterfly Handbag' %>
-      <% end %>
-      <div class="carousel-caption">
-        <h4>Our Amazing Butterfly Handbag!</h4>
-        <p>Carry your belongings in style with this amazing butterfly patterned handbag</p>
-      </div>
-    </div>
-    <div class="item">
-      <%= link_to @carousel_products[1] do %>
-        <% image_tag 'frontcushions.jpg', :alt => 'Cushions' %>
-      <% end %>
-      <div class="carousel-caption">
-        <h4>A Selection Of Our Scatter Cushions</h4>
-        <p>The perfect addition to any room</p>
-      </div>
-    </div>
-    <div class="item">
-      <%= link_to @carousel_products[2] do %>
-        <% image_tag 'fronttweed.jpg', :alt => 'Tweed Handbag' %>
-      <% end %>
-      <div class="carousel-caption">
-        <h4>Our Gorgeous Raspberry Tweed Handbag</h4>
-        <p>The most fabulous handbag!</p>
-      </div>
+<div class="row">
+  <div class="span5">
+    <div class="hero-unit" id="shop-now-hero">
+      <h1>Online Store</h1>
+      <p>All products available to order online</p>
+      <p>
+        <a href="/products" class="btn btn-primary btn-large">
+          Shop Now
+        </a>
+      </p>
     </div>
   </div>
-  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+  <div class="span7">
+    <div id="home-carousel" class="hero-unit carousel slide">
+      <div class="carousel-inner">
+        <div class="active item">
+          <%= link_to @carousel_products[0] do %>
+            <% image_tag 'widepurse01.jpg', :alt => 'Butterfly Handbag', :class => 'carousel-image' %>
+          <% end %>
+          <div class="carousel-caption">
+            <h4>Our Amazing Butterfly Handbag!</h4>
+            <p>Carry your belongings in style with this amazing butterfly patterned handbag</p>
+          </div>
+        </div>
+        <div class="item">
+          <%= link_to @carousel_products[1] do %>
+            <% image_tag 'frontcushions.jpg', :alt => 'Cushions', :class => 'carousel-image' %>
+          <% end %>
+          <div class="carousel-caption">
+            <h4>A Selection Of Our Scatter Cushions</h4>
+            <p>The perfect addition to any room</p>
+          </div>
+        </div>
+        <div class="item">
+          <%= link_to @carousel_products[2] do %>
+            <% image_tag 'fronttweed.jpg', :alt => 'Tweed Handbag', :class => 'carousel-image' %>
+          <% end %>
+          <div class="carousel-caption">
+            <h4>Our Gorgeous Raspberry Tweed Handbag</h4>
+            <p>The most fabulous handbag!</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="span9">
+    <div class="hero-unit" id="butterfly-handbag-hero">
+      <h1>Butterfly Bag!</h1>
+      <p>Carry your belongings in style</p>
+      <p>
+        <a href="/products/6" class="btn btn-primary btn-large">
+          Now Available
+        </a>
+      </p>
+    </div>
+  </div>
+  <div class="span3">
+    <form class="well">
+      <p>Join our mailing list to hear about new products first!</p>
+      <input type="text" placeholder="Enter your email address">
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+  </div>
 </div>
 
 <div id="social">

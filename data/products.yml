@@ -218,9 +218,12 @@
     This beautiful handmade 18in (45cm) square scatter cushion is the perfect Summery addition to any room.
     
 
-    The front panel is made from wonderful quality quilting weight cotton with a multicoloured butterfly design and has a hot pink piping around the edge. The back panel is made from lovely, soft caramel brushed cotton canvas.
+    The front panel is made from wonderful quality quilting weight cotton with a multicoloured butterfly design and has a hot pink piping around the edge. 
+    
+    
+    The back panel is made from lovely, soft caramel brushed cotton canvas.
 
-
+    
     The cushion inner itself is filled with 100% duck feather and the cushion cover has a zip closure.
   
   image1: butterflycushion.jpg
@@ -256,3 +259,71 @@
   carousel_detail3: Cheery beach huts design
   price: 12
   
+  
+- id: 14
+  name: Butterfly iPad Case
+  collection_id: 3
+  product_range_id: 4
+  thumbnail: ipadcase2thumb.jpg
+  description:
+    Protect your iPad from dust and scratches with this beautiful handmade iPad case.
+
+    
+    
+    The exterior fabric has an amazing butterfly design which has been stabilised with specialist interfacing to make it durable and very strong.
+
+    
+    
+    The interior is lined with a beautiful soft brushed canvas in a caramel tone and there is additional padding between the layers for extra protection.
+
+    
+    
+    The case closes securely with a silver coloured tuck-tite snap clasp.  The case measures 10&frac12;in (27cm) by 8&frac14;in (21cm) 
+  
+    
+    
+    
+    It will fit an original iPad, an iPad 2 or a New iPad with or without smartcovers.  
+  
+  image1: ipadcase1.jpg
+  image2: ipadcase2.jpg
+  image3: ipadcase3.jpg
+  etsy_url: https://www.etsy.com/listing/101812574/butterfly-ipad-case
+  carousel_detail1: Our fantastic butterfly iPad case
+  carousel_detail2: Keep your iPad safe from dust and scratches
+  carousel_detail3: More chic than geek!
+  price: 30
+
+
+- id: 15
+  name: Eiffel Tower iPad Case
+  collection_id: 1
+  product_range_id: 4
+  thumbnail: eiffelipad2thumb.jpg
+  description:
+    Protect your iPad from dust and scratches with this beautiful handmade iPad case.
+
+    
+    
+    The wonderful exterior fabric has a fabulous Eiffel Tower design in turquoise and chocolate brown. This material has been stabilised with specialist interfacing to make it durable and very strong.
+
+   
+   
+    The interior is lined with a beautiful soft brushed canvas in a caramel tone and there is additional padding between the layers for extra protection.
+
+   
+   
+    The case closes securely with a wooden button. The case measures 10&frac12;in (27cm) by 8&frac14;in (21cm) 
+  
+    
+    
+    It will fit an original iPad, an iPad 2 or a New iPad with or without smartcovers.  
+  
+  image1: eiffelipad1.jpg
+  image2: eiffelipad3.jpg
+  image3: eiffelipad6.jpg
+  etsy_url: https://www.etsy.com/listing/101814891/eiffel-tower-ipad-case
+  carousel_detail1: Our super Eiffel Tower iPad case.
+  carousel_detail2: Keep your iPad safe in fabulous style
+  carousel_detail3: More chic than geek!
+  price: 30

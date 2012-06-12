@@ -12,6 +12,7 @@ class ProductsController < ApplicationController
     if @range_products.length > 2
       @range_products = @range_products[0..1]
     end
+    @title_extra = @product.name
   end
 
 end

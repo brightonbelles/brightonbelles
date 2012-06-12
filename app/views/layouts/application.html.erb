@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brighton Belles</title>
+  <% if @title_extra %>
+    <title>Brighton Belles - <%= @title_extra %></title>
+  <% else %>
+    <title>Brighton Belles - Cushions, Bags, Purses and Gadget Cases</title>
+  <% end %>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <meta name="description" content="We are a handicraft company based in Brighton and Hove. We make pretty things by hand from fabulous fabric, like purses, handbags and cushions.">

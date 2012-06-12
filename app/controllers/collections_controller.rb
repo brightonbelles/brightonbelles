@@ -7,6 +7,7 @@ class CollectionsController < ApplicationController
   def show
     @collection = Collection.find_by_id(params[:id].gsub(/-.*$/, ''))
     @products = @collection.products
+    @title_extra = "#{@collection.name} Collection"
   end
 
 end

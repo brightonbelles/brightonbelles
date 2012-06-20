@@ -22,7 +22,7 @@ group :assets do
 end
 
 group :production do
-  gem 'rack-google_analytics', :require => "rack/google_analytics"
+  gem 'rack-google-analytics', :require => 'rack/google-analytics'
   gem 'newrelic_rpm'
   gem 'lograge'
 end

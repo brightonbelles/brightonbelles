@@ -5,7 +5,7 @@ Brightonbelles::Application.configure do
   config.lograge.enabled = true
 
   # Google Analytics
-  config.middleware.use("Rack::GoogleAnalytics", :web_property_id => "UA-24192546-1")
+  config.middleware.use Rack::GoogleAnalytics, :tracker => 'UA-24192546-1'
 
   # Code is not reloaded between requests
   config.cache_classes = true

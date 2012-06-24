@@ -8,9 +8,17 @@
   <% else %>
     <title>Brighton Belles - Cushions, Bags, Purses and Gadget Cases</title>
   <% end %>
+<link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC|Ribeye|Cantata+One|Fredericka+the+Great|Federo|Londrina+Sketch|Oleo+Script|Concert+One|Emblema+One|Josefin+Sans|Limelight|Smythe|Antic+Didone|Londrina+Outline|Josefin+Slab:700|Fredoka+One|EB+Garamond|Loved+by+the+King|Voltaire|Italiana|Kranky|Amatic+SC:400,700|IM+Fell+Great+Primer+SC|Diplomata|Miltonian|Miltonian+Tattoo|Special+Elite|Ewert|Ribeye+Marrow|Belleza|Fanwood+Text|Cutive|Lusitana|Ledger|Pontano+Sans|Marko+One' rel='stylesheet' type='text/css'>
+
+
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
-  <meta name="description" content="We are a handicraft company based in Brighton and Hove. We make pretty things by hand from fabulous fabric, like purses, handbags and cushions.">
+  
+  <% if @meta_description %>
+  	<meta name="description" content="<%= @meta_description %>">
+  <% else %>
+    <meta name="description" content="We are a handicraft company based in Brighton and Hove. We make pretty things by hand from fabulous fabric, like purses, handbags and cushions.">
+  <% end %>
   <%= csrf_meta_tags %>
   <%= render 'common/fbmeta' %>
 </head>
@@ -19,14 +27,14 @@
 
   <div class="wrapper">
     <div class="container">
-      <div id="headerimage"></div>
+      <div id="headerimage"><h1>Brighton Belles</h1></div>
       
       <div class="navbar">
         <div class="navbar-inner">
           <div class="container">
 
             <ul class="nav">
-              <li><%= link_to 'Brighton Belles', '/', { :class => 'brand pull-left' } %></li>
+            <li> <a href="/">Home</a></li>
                 <li class="dropdown">
                   <a href="#"
                      class="dropdown-toggle"
@@ -67,6 +75,7 @@
                 <!-- <li><%= link_to 'Gallery', '/pages/gallery' %></li>
                 <li><%= link_to 'Commissions', '/pages/commissions' %></li> -->
                 <li><%= link_to 'Buying & Delivery', '/pages/buying' %></li>
+                <li><%= link_to 'Blog',  'http://blog.brightonbelles.com/'%></li>
                 <li><a href="http://www.etsy.com/shop/BrightonBelleGifts"><b>Our Etsy Shop</b></a></li>
               </ul>
 
@@ -89,6 +98,7 @@
     <div class="container">
       <p class="pull-left">&copy; Copyright 2012 brightonbelles.com</p>
       <p class="pull-right">
+        <%= link_to 'Home', '/' %> |
         <%= link_to 'About', '/pages/about' %> |
         <%= link_to 'Contact', '/pages/contact' %> |
         <%= link_to 'Buying & Delivery', '/pages/buying' %>

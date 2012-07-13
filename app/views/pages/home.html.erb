@@ -69,18 +69,40 @@
 	</div>
 
 <div class="row">
-  <div class="span9">
+  <div class="span8">
     <div class="hero-unit" id="butterfly-handbag-hero">
       <h1>Online Store</h1>
       <h3>Carry your belongings in style</h3>
         <a href="/products/6" class="btn btn-primary btn-large">
          Shop Now!
         </a>
-      </p>
     </div>
+  </div>
+  <div class="span4">
+    <%= link_to products_url do %>
+      <% image_tag '2butterflybag.jpg', :alt => 'Butterfly Bag' %>
+    <% end %>
   </div>
 </div>
 
+<div class="row">
+  <div class="span4">
+    <%= link_to products_url do %>
+      <% image_tag 'thumbtweedhandbag.jpg', :alt => 'Butterfly Bag' %>
+    <% end %>
+  </div>
+  <div class="span4">
+    <%= link_to products_url do %>
+      <% image_tag 'butterflypurse002thumb.jpg', :alt => 'Butterfly Bag' %>
+    <% end %>
+  </div>
+  <div class="span4">
+    <%= link_to products_url do %>
+      <% image_tag 'eiffelipad2thumb.jpg', :alt => 'Butterfly Bag' %>
+    <% end %>
+  </div>
+</div>  
+ 
 <div class="row">
   <div class="span3 offset9">
     <form class="well">

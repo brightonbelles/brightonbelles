@@ -23,14 +23,13 @@
 // @linkColor: #ff0000;
 
 @linkColor: #a7c4bb;
-@bodyBackground: #FDFFE6;
-@baseFontFamily: 'Nixie One', cursive;
+@bodyBackground: lighten(#FDFFE6, 2%);
+@baseFontFamily: 'Helvetica', cursive;
 @headingsFontWeight: bold;
 @navbarBackground: @linkColor;
 @navbarBackgroundHighlight: @linkColor;
 @navbarText: #fff;
 @navbarLinkColor: #fff;
-
 
 .navbar-search .search-query {
     width: 180px;
@@ -41,13 +40,7 @@
     color: @linkColor;
 }
 
-h1 {
-	font-family: 'Nixie One', cursive;
-
+.breadcrumb {
+    background-color: @bodyBackground;
+    background-image: none;
 }
-
-//.backgroundpatterns { 
-//		background: url('/assets/bigcanvasbackground2.jpg');
-//
-//}
-

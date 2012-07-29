@@ -163,7 +163,6 @@ DEPENDENCIES
   newrelic_rpm
   rack-google-analytics
   rails (= 3.2.7)
-  sass-rails (~> 3.2.3)
   sitemap_generator
   stringex
   thin

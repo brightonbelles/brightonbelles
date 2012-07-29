@@ -1,15 +1,18 @@
 #butterfly-handbag-hero {
-    background: url('/assets/buttipad1thumb.png');
-    background-repeat: no-repeat;
+
+    @media (min-width: 1200px) {
+        background: url('/assets/buttipad1thumb.png');
+        background-repeat: no-repeat;
+        background-position: right; 
+        background-color: #d4eeed;
+    }
+
     background-color: #d4eeed;
-    background-position: right; 
     color: #3A4E4E;
 
     h1 {
         font-family: 'Poiret One', cursive;
         padding-bottom: 17px;
-        
-        
     }
 
     h3 {
@@ -27,5 +30,6 @@
 // fix signup form vertical alignment
 input#signup-email {
     margin-bottom: 0px;
+    width: 180px;
 }
 

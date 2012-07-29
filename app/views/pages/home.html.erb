@@ -1,55 +1,47 @@
-<div class="narrow-image">
-  <p>Welcome to our shop!</p>
-  <%= link_to(@carousel_products[0], { 'class' => 'thumbnail' }) do %>
-    <% image_tag 'widepurse01.jpg', :alt => 'Butterfly Handbag' %>
-  <% end %>
-  <%= link_to(@carousel_products[1], { 'class' => 'thumbnail' }) do %>
-    <% image_tag 'frontcushions.jpg', :alt => 'Butterfly Handbag' %>
-  <% end %>
-  <%= link_to(@carousel_products[1], { 'class' => 'thumbnail' }) do %>
-    <% image_tag 'fronttweed.jpg', :alt => 'Butterfly Handbag' %>
-  <% end %>
-</div>
-
-<div id="myCarousel" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="active item">
-      <%= link_to @carousel_products[0] do %>
-        <% image_tag 'widepurse01.jpg', :alt => 'Butterfly Handbag' %>
-      <% end %>
-      <div class="carousel-caption">
-        <h4>Our Amazing Butterfly Handbag!</h4>
-        <p>Carry your belongings in style with this amazing butterfly patterned handbag</p>
-      </div>
-    </div>
-    <div class="item">
-      <%= link_to @carousel_products[1] do %>
-        <% image_tag 'frontcushions.jpg', :alt => 'Cushions' %>
-      <% end %>
-      <div class="carousel-caption">
-        <h4>A Selection Of Our Scatter Cushions</h4>
-        <p>The perfect addition to any room</p>
-      </div>
-    </div>
-    <div class="item">
-      <%= link_to @carousel_products[2] do %>
-        <% image_tag 'fronttweed.jpg', :alt => 'Tweed Handbag' %>
-      <% end %>
-      <div class="carousel-caption">
-        <h4>Our Gorgeous Raspberry Tweed Handbag</h4>
-        <p>The most fabulous handbag!</p>
-      </div>
+<div class="row">
+  <div class="span8">
+    <div class="hero-unit" id="butterfly-handbag-hero">
+      <h1>Online Store</h1>
+      <h3>Carry your belongings in style!</h3>
+      <a href="/products/14-butterfly-ipad-case" class="btn btn-primary btn-large">
+        &nbsp;Shop Now&nbsp;
+      </a>
     </div>
   </div>
-  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+  <div class="span4 homepage-product">
+    <%= link_to '/products/6-butterfly-bag' do %>
+      <% image_tag 'pixel2butterflybag.png', :alt => 'Butterfly Bag' %>
+    <% end %>
+  </div>
 </div>
 
-<div id="social">
-  <div id="facebook" data-likeurl="http://www.brightonbelles.com">
-    <a href="http://www.facebook.com/BrightonBelles">facebook.com/BrightonBelles</a>
+<div class="row">
+  <div class="span4 homepage-product">
+    <%= link_to '/products/5-tweed-bag' do %>
+      <% image_tag 'pixeltweedhandbag.png', :alt => 'Butterfly Bag' %>
+    <% end %>
   </div>
-  <a href="http://twitter.com/BellesBulletin" class="twitter-follow-button twitter-widget"
-     data-width="160px" data-show-count="false">Follow @BellesBulletin</a>
-  <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.brightonbelles.com&amp;media=<%= u asset_url('triplecushionstackbackroung.jpg') %>&amp;description=Brighton%20Belles%20-%20Pretty%20Things!" class="pin-it-button" data-count-layout="horizontal">Pin It</a>
-</div>
+  <div class="span4 homepage-product">
+    <%= link_to '/products/3-butterfly-purse' do %>
+      <% image_tag 'pixelbutterflypurse002.png', :alt => 'Butterfly Bag' %>
+    <% end %>
+  </div>
+  <div class="span4">
+    <form class="well">
+      <p>Join our mailing list to hear about new products and special offers!</p>
+      <input type="text" id="signup-email" placeholder="Enter your email address" name="EMAIL">
+      <button type="submit" class="btn btn-primary" name="subscribe" value="Subscribe">Sign Up</button>
+    </form>
+  </div>
+  <div class="row">
+    <div class="span4">
+      <div id="facebook" data-likeurl="http://www.brightonbelles.com">
+        <a href="http://www.facebook.com/BrightonBelles">facebook.com/BrightonBelles</a>
+      </div>
+      <a href="http://twitter.com/BellesBulletin" class="twitter-follow-button twitter-widget"
+         data-width="160px" data-show-count="false">Follow @BellesBulletin</a>
+      <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.brightonbelles.com&amp;media=<%= u asset_url('triplecushionstackbackroung.jpg') %>&amp;description=Brighton%20Belles%20-%20Pretty%20Things!" class="pin-it-button" data-count-layout="horizontal">Pin It</a>
+    </div>
+  </div>
+</div>  
+

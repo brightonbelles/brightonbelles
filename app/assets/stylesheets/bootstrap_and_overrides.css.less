@@ -23,18 +23,52 @@
 // @linkColor: #ff0000;
 
 @linkColor: #a7c4bb;
-
+@bodyBackground: lighten(#FDFFE6, 2%);
+@baseFontFamily: 'Quattrocento Sans', sans-serif;
+@headingsFontWeight: bold;
 @navbarBackground: @linkColor;
 @navbarBackgroundHighlight: @linkColor;
 @navbarText: #fff;
 @navbarLinkColor: #fff;
+
+a, button {
+    text-shadow: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
 
 .navbar-search .search-query {
     width: 180px;
     border-color: #fff;
 }
 
+.navbar a {
+    font-size: 14px;
+    
+    @media (min-width: 1200px) {
+        font-size: 16px;
+    }
+}
+
 .page_heading {
     color: @linkColor;
+}
+
+.breadcrumb {
+    background-color: @bodyBackground;
+    background-image: none;
+}
+
+body {
+    background-image: url('/assets/paper_texture_bg.jpg');
+}
+
+body > .container, footer > .container {
+    padding: 0px 20px;
+    background-color: #f7f4e9;
+    border: solid #D1E2CB;
+    border-width: 0px 1px;
 }
 

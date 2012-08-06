@@ -13,6 +13,7 @@ class ProductsController < ApplicationController
       @range_products = @range_products[0..1]
     end
     @title_extra = @product.name
+    @meta_description = @product.short_description
   end
 
 end

@@ -1,28 +1,57 @@
 #headerimage {
-    width: 940px;    
     height: 180px;
     margin-top: 2px;
     margin-bottom: 2px;
     background-image: url(/assets/pier940.jpg);
+
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+
+    h1 {
+	font-family: 'Italianno', cursive;
+        color: #a7c4bb;
+        font-size: 60px;
+        padding-top: 30px;
+        padding-left: 50px;
+        
+        a:hover {
+	    text-decoration: none;
+	    color: #a7c4bb;
+        }
+    }
 }
 
 @media (min-width: 1200px) {
     #headerimage {
-        width: 1170px;    
         background-image: url(/assets/pier1170.jpg);
+        h1 {
+            font-size: 60px;
+            padding-top: 30px;
+            padding-left: 50px;
+        }
     }
 }
 
 @media (min-width: 768px) and (max-width: 980px) {
     #headerimage {
-        width: 724px;
         background-image: url(/assets/pier724.jpg);
+        h1 {
+            font-size: 36px;
+            padding-top: 16px;
+            padding-left: 50px;
+        }
     }
 }
 
 @media (max-width: 768px) {
     #headerimage {
-        width: 724px;
         background-image: url(/assets/pier724.jpg);
+        h1 {
+            font-size: 36px;
+            padding-top: 16px;
+            padding-left: 50px;
+        }
     }
 }
+

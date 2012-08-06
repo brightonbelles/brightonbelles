@@ -3,6 +3,7 @@
   collection_id: 1
   product_range_id: 3
   thumbnail: eiffelbackgroundthumb.jpg
+  short_description: Eiffel Tower Design Coin Purse
   description: 
     Here is a fabulous purse for you to keep your belongings safe in real style! This gorgeous coin purse has been handmade from wonderful quality quilting weight cotton. 
 
@@ -25,6 +26,7 @@
   collection_id: 1
   product_range_id: 3
   thumbnail: pinkeiffelpursethumb.jpg
+  short_description: Pink Eiffel Tower Coin Purse
   description: 
     This gorgeous coin purse has been handmade from wonderful quality quilting weight cotton. The main fabric colour is a beautiful pale pink, and the super chic Eiffel Tower design is a rich chocolate brown. 
 
@@ -48,6 +50,7 @@
   collection_id: 3
   product_range_id: 3
   thumbnail: butterflypursethumb001.jpg
+  short_description: Butterfly Coin Purse
   description: 
     Here is a beautiful handmade butterfly patterned coin purse, fully lined with polyester. 
 
@@ -70,6 +73,7 @@
   collection_id: 1
   product_range_id: 2
   thumbnail: 4thumbeiffelbag.jpg
+  short_description: Eiffel Tower Design Handbag
   description: 
     Ooh la la!
 
@@ -99,6 +103,7 @@
   collection_id: 2
   product_range_id: 2
   thumbnail: thumbtweedhandbag.jpg
+  short_description: Raspberry Pink Tweed Handbag
   description:  
     This beautiful handmade handbag is perfect for carrying your belongings in style.
 
@@ -128,6 +133,7 @@
   collection_id: 3
   product_range_id: 2
   thumbnail: 2thumbbutterflybag.jpg
+  short_description: Butterfly Handbag
   description: 
     Carry your belongings in amazing style!
 
@@ -157,6 +163,7 @@
   collection_id: 1
   product_range_id: 1
   thumbnail: 2eiffelcushionthumb.jpg
+  short_description: Eiffel Tower Design Scatter Cushion
   description: 
     Ooh la la!
 
@@ -184,6 +191,7 @@
   collection_id: 1
   product_range_id: 1
   thumbnail: pinkeiffel001thumb.jpg
+  short_description: Pink Eiffel Tower Design Scatter Cushion
   description: 
     Add a bit of Parisian chic to your room with this beautiful handmade 18in (45cm) square scatter cushion.
 
@@ -211,6 +219,7 @@
   collection_id: 3
   product_range_id: 1
   thumbnail: butterflycushionthumb.jpg
+  short_description: Butterfly Design Scatter Cushion
   description: 
     Scatter Cushion with Butterfly Design.
     
@@ -241,6 +250,7 @@
   collection_id: 4
   product_range_id: 2
   thumbnail: beachhuttotethumb.jpg
+  short_description: Beach Hut Tote Bag
   description:
     Perfect for a picnic or your shopping, this laminated cotton tote bag has enough space for all your essentials. 
 
@@ -265,6 +275,7 @@
   collection_id: 3
   product_range_id: 4
   thumbnail: ipadcase2thumb.jpg
+  short_description: Butterfly Design iPad Case
   description:
     Protect your iPad from dust and scratches with this beautiful handmade iPad case.
 
@@ -300,6 +311,7 @@
   collection_id: 1
   product_range_id: 4
   thumbnail: eiffelipad2thumb.jpg
+  short_description: Eiffel Tower Design iPad Case
   description:
     Protect your iPad from dust and scratches with this beautiful handmade iPad case.
 

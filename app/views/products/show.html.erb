@@ -81,7 +81,7 @@
       <h3 class="price"><%= number_to_currency(@product.price) %></h3>
 
       <div class="buy_button">
-        <%= link_to('Buy Now on etsy.com', @product.etsy_url, { :class => 'btn btn-large btn-primary', :target => '_blank' }) %>
+        <%= tracked_link_to 'Buy Now on etsy.com', @product.etsy_url, { :class => 'btn btn-large btn-primary', :event_type => 'Product Buy Button', :target => '_blank' } %>
       </div>
 
       <h3>Other <%= @range.name %></h3>

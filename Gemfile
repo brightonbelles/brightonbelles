@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.7'
+gem 'rails', '3.2.11'
 
 gem 'active_hash'
 gem 'stringex'
@@ -15,6 +15,7 @@ group :development do
 end
 
 group :assets do
+  gem 'therubyracer'
   gem 'twitter-bootstrap-rails', '~> 2.0'
   gem 'less-rails', '~> 2.2.3'
   gem 'coffee-rails', '~> 3.2.1'
